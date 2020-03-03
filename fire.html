@@ -23,6 +23,9 @@
         var errorMessage = error.message;
     });*/
 	  
+    /*
+    	Usuários são configurados no firebase no menu AUTHENTICATION na ABA USUÁRIOS
+    */
     firebase.auth().signInWithEmailAndPassword("email", "senha").then(function(retorno){
 
 	var db = firebase.firestore();
